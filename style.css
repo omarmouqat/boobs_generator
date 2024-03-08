@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.upper_div {
+    box-sizing: border-box;
+    height: 80vh;
+    width: auto;
+    flex: 10;
+    background-color: rgb(39, 39, 39);
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 5px;
+    border-width: 1%;
+    border-bottom-width: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-style: none ;
+    
+}
+.boobs_div{
+    box-sizing: content-box;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boobs{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+}
+.lower_div {
+    box-sizing: border-box;
+    height: 10vh;
+    width: auto;
+    flex: 15;
+    background-color:rgb(39, 39, 39);
+    border-style: solid;
+    border-top-style: none;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1%;
+    border-top-width: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.v_centering_div{
+    overflow: hidden;
+    box-sizing: border-box;
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.up_down{
+    height: 40%;
+    width: 60%;
+    align-self: center;
+}
+.boobs_size{
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    align-self: center;
+}
+.submit{
+    height: 10%;
+    width: auto;
+}
